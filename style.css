@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
   }
   
   body {
@@ -97,3 +99,6 @@
       overflow-y: auto;
     }
   }
+
+
+  /* footer */

@@ -366,11 +366,9 @@ body, html {
 }
 
 body {
-  
+  /* padding: 1em 0 3em; */
   min-height: calc(100vh - 4em);
 }
-
-
 /* footer */
 
 .app {

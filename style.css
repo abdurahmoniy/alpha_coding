@@ -1,16 +1,24 @@
+:root {
+  --black: #222831;
+  --black2: #060112;
+  --dark: #393E46;
+  --myteal: #00ADB5;
+  --mylight: #EEEEEE;
+}
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0px;
+  background: var(--black2);
   font-family: "segoe ui";
 }
 
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: var(--black);
   position: relative;
 }
 
@@ -21,7 +29,7 @@ body {
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
-  color: #fff;
+  color: var(--myteal);
 }
 .nav > .nav-header > .nav-title > img {
   width: 50px;
@@ -41,7 +49,7 @@ body {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: #efefef;
+  color: var(--myteal);
 }
 
 .nav > .nav-links > a:hover {

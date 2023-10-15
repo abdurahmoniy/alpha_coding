@@ -467,82 +467,29 @@ main {
 }
 /* price */
 
+.price-header{
+  color: var(--myteal);
+  text-align: center;
+  font-size: 2em;
+}
+
 .pricing-table-container {
+  padding: 50px 0;
   font-family: "Poppins", sans-serif;
 }
-
-.pricing-table-container .pricing-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pricing-table-container h2 {
-  margin-right: 32px;
-  font-size: 24px;
-}
-
-.pricing-table-container .plans-switch {
-  width: 250px;
-  background: var(--myteal);
-  height: 55px;
-  appearance: none;
-  border-radius: 24px;
-  outline: none;
-  cursor: pointer;
-  position: relative;
-}
-
-.pricing-table-container .plans-switch-container {
-  position: relative;
-  color: #fff;
-  display: inline-block;
-}
-
-.pricing-table-container .plans-switch-container .monthly {
-  position: absolute;
-  left: 36px;
-  top: 18px;
-  pointer-events: none;
-}
-
-.pricing-table-container .plans-switch-container .yearly {
-  position: absolute;
-  right: 36px;
-  top: 18px;
-  pointer-events: none;
-}
-
-.pricing-table-container .plans-switch::before {
-  content: "";
-  position: absolute;
-  height: 44px;
-  width: 120px;
-  border-radius: 24px;
-  background: var(--green);
-  top: 50%;
-  transform: translateY(-50%);
-  left: 6px;
-  transition: all 0.5s;
-}
-
-.pricing-table-container .plans-switch:checked::before {
-  left: 138px;
-  width: 106px;
-}
-
 
 .pricing-table {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 32px;
+  gap: 10px;
 }
 
 
 .pricing-table .table {
   background: var(--light-color);
   width: 260px;
+  height: 500px;
   padding: 32px;
   position: relative;
 }
@@ -615,16 +562,23 @@ main {
 }
 
 .pricing-table .table .content {
-
-  position: relative;
+  /* position: relative; */
 }
 
 
 .pricing-table .table.best-value {
   background: var(--dark-blue);
   color: #fff;
+  height: 550px;
   border-radius: 24px;
   width: 280px;
+}
+
+.pricing-table .table:nth-child(1){
+  border-radius: 20px 0 0 20px;
+}
+.pricing-table .table:nth-child(3){
+  border-radius: 0 20px 20px 0;
 }
 
 .pricing-table .table.table.best-value .value {
@@ -659,6 +613,21 @@ main {
 
 .pricing-table .table.best-value .description {
   color: #eee;
+}
+
+@media (max-width: 600px) {
+  .pricing-table{
+    display: block;
+    width: 100%;
+  }
+  .pricing-table .table, .pricing-table .table.best-value {
+    width: 90%;
+    margin: 10px 20px;
+    border-radius: 20px !important;
+  }
+.pricing-table .table.table.best-value .value {
+  padding: 15px 0;
+}
 }
 
 

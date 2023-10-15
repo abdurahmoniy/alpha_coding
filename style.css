@@ -10,21 +10,31 @@
 }
 
 body {
+  overflow-x: hidden !important;
   margin: 0px;
   background: var(--black2);
   font-family: "segoe ui";
+}
+
+main {
+  padding: 50px 0;
+  overflow: auto;
 }
 
 .nav {
   height: 50px;
   width: 100%;
   background-color: var(--black);
-  position: relative;
+  position: fixed;
   z-index: 10;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav > .nav-header {
   display: inline;
+  background: var(--myteal);
+  padding: 0 20px;
 }
 
 .nav > .nav-header > .nav-title {
@@ -41,8 +51,6 @@ body {
 }
 
 .nav > .nav-links {
-  display: inline;
-  float: right;
   font-size: 18px;
 }
 
@@ -61,10 +69,30 @@ body {
   display: none;
 }
 
+.contact-btn{
+  background: var(--myteal);
+  padding: 0 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-weight: 500;
+}
+.contact-mob{
+  display: none !important;
+}
+
 @media (max-width: 600px) {
+  .contact-mob{
+    display: block !important;
+  }
+  .contact-btn{
+    display: none;
+  }
   .nav {
-    opacity: 0.9;
+    opacity: 0.99;
     position: fixed;
+    background: var(--myteal);
   }
   .nav > .nav-btn {
     display: inline-block;
@@ -214,8 +242,15 @@ body {
   transition: all linear 0.6s;
 }
 
- /*  card*/
- main {
+@media (max-width: 600px) {
+  .box-area {
+    display: none; /* Hide the existing carousel on mobile */
+  }
+}
+
+
+/*  card*/
+ .service {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -286,7 +321,7 @@ body {
 }
 
 @media (max-width: 600px) {
-  main{
+  .service{
     display: block;
   }
   .card {

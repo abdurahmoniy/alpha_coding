@@ -40,10 +40,17 @@ main {
   justify-content: space-between;
 }
 
-.nav > .nav-header {
-  display: inline;
+.nav > .nav-header{
+  height: 100%;
   background: var(--myteal);
   padding: 0 20px;
+}
+
+.nav > .nav-header img{
+  /* display: inline; */
+  /* background: var(--myteal); */
+  /* margin: 0 15px; */
+  /* padding: 0 20px; */
 }
 
 .nav > .nav-header > .nav-title {

@@ -379,8 +379,6 @@ main {
   justify-content: center;
 }
  .service {
-  align-items: center;
-  padding: 50px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -454,15 +452,16 @@ main {
 }
 
 @media (max-width: 600px) {
+  /* .service {
+    margin: 0 auto;
+    width: 50%;
+  } */
   .service .items{
     display: block;
-    gap: 0;
-    margin: 0;
-    padding: 0;
-
+    margin: auto;
   }
-  .card {
-    margin: 30px 0;
+  .service .items .card {
+    margin: 30px auto;
   }
 }
 /* price */
@@ -562,7 +561,7 @@ main {
 }
 
 .pricing-table .table .content {
-  /* position: relative; */
+  position: relative;
 }
 
 
@@ -730,6 +729,10 @@ figure.snip1139 .author h5 span {
 @media (max-width: 600px) {
   .clent-fikri .items{
     display: block;
+    margin: auto;
+  }
+  .clent-fikri .items figure {
+    margin: 0 auto;
   }
 }
 /* footer */

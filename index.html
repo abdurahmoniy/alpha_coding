@@ -1,375 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Coding</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&amp;display=swap"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alpha Coding</title>
-  <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&amp;display=swap" />
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-
-</head>
-
-<body>
-  <div class="nav">
-    <input type="checkbox" id="nav-check" />
-    <a href="#main" class="nav-header">
-      <div class="nav-title">
-        <img src="./img/logo.png" alt="" />
+  <body>
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <a href="#main" class="nav-header">
+        <div class="nav-title">
+          <img src="./img/logo.png" alt="" />
+        </div>
+      </a>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
       </div>
-    </a>
-    <div class="nav-btn">
-      <label for="nav-check">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
+
+      <div class="nav-links">
+        <a href="#main">Main</a>
+        <a href="#service">Services</a>
+        <a href="#orders">Orders</a>
+        <a href="#price">Price</a>
+        <a href="#contact" class="contact-mob">Contact</a>
+      </div>
+
+      <a href="#contact" class="contact-btn">Contact</a>
     </div>
 
-    <div class="nav-links">
-      <a href="#main">Main</a>
-      <a href="#service">Services</a>
-      <a href="#orders">Orders</a>
-      <a href="#price">Price</a>
-      <a href="#contact" class="contact-mob">Contact</a>
-    </div>
-
-    <a href="#contact" class="contact-btn">Contact</a>
-  </div>
-
-  <main id="main">
-
-
-
-    <!-- ---------------------------------------------------------------------- -->
-
-    <header class="mainHeading">
-      <div class="mainHeading__content">
-         <article class="mainHeading__text">
-            <!-- <p class="mainHeading__preTitle">nature</p>   -->
+    <main id="main">
+      <header class="mainHeading">
+        <div class="mainHeading__content">
+          <article class="mainHeading__text">
             <h2 class="mainHeading__title">Alpha Coding Company</h2>
             <p class="mainHeading__description">
-               Biz  sizning biznesda muamloringizga  yechim beramz.
-               Bizning jamoa siz istagan Mobil Ilova(IOS,Android), Web Site , hamda Telegram Bot tuzib beramz
+              Biz sizning biznesda muamloringizga yechim beramz. Bizning jamoa
+              siz istagan Mobil Ilova(IOS,Android), Web Site , hamda Telegram
+              Bot tuzib beramz
             </p>
-            <a href='#contact' class="cta">  Biz Bilan Bog'lanish</a>
-         </article>
-   
-         <figure class="mainHeading__image">
+            <a href="#contact" class="cta"> Biz Bilan Bog'lanish</a>
+          </article>
+          <img src="https://png.pngtree.com/png-vector/20220725/ourmid/pngtree-communicating-office-workers-man-laptop-png-image_5628276.png" alt="">
+        </div>
+      </header>
+
+      <!-- Carousel -->
+      <div class="desktop-carousel">
+        <h1 style="padding-top: 50px" class="card-headr">Bizning ishlarimiz</h1>
+        <div class="box-area">
+          <div class="box active">
             <img
-               src="./img/png.png"
-               alt=""
+              src="https://images.pexels.com/photos/2837909/pexels-photo-2837909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="img"
             />
-         </figure>
-      </div>
-   </header>
-   
-
-
-
-
-
-
-
-
-
-    <!-- Carousel -->
-    <div class="desktop-carousel">
-      <h1 style="padding-top: 50px;" class="card-headr">Bizning ishlarimiz</h1>
-      <div class="box-area">
-        <div class="box active">
-          <img
-            src="https://images.pexels.com/photos/2837909/pexels-photo-2837909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="img" />
-          <i class="fa-solid fa-comment"></i>
-          <h2>Yurak Amri Travel</h2>
-          <p>Turiztik Loyiha </p>
-        </div>
-        <div class="box">
-          <img
-            src="https://images.pexels.com/photos/922978/pexels-photo-922978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="img" />
-          <i class="fa-solid fa-comment"></i>
-          <h2>Telegram bot</h2>
-          <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="box">
-          <img
-            src="https://images.pexels.com/photos/3723034/pexels-photo-3723034.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="img" />
-          <i class="fa-solid fa-comment"></i>
-          <h2>Telegram bot</h2>
-          <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div class="box">
-          <img
-            src="https://images.pexels.com/photos/10983409/pexels-photo-10983409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="img" />
-          <i class="fa-solid fa-comment"></i>
-          <h2>Telegram bot</h2>
-          <p>Lorem ipsum dolor sit amet.</p>
+            <i class="fa-solid fa-comment"></i>
+            <h2>Yurak Amri Travel</h2>
+            <p>Turiztik Loyiha</p>
+          </div>
+          <div class="box">
+            <img
+              src="https://images.pexels.com/photos/922978/pexels-photo-922978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="img"
+            />
+            <i class="fa-solid fa-comment"></i>
+            <h2>Telegram bot</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="box">
+            <img
+              src="https://images.pexels.com/photos/3723034/pexels-photo-3723034.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="img"
+            />
+            <i class="fa-solid fa-comment"></i>
+            <h2>Telegram bot</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="box">
+            <img
+              src="https://images.pexels.com/photos/10983409/pexels-photo-10983409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="img"
+            />
+            <i class="fa-solid fa-comment"></i>
+            <h2>Telegram bot</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
         </div>
       </div>
-    </div>
+      <div class="mobile-carousel">
+        <h1 style="padding-bottom: 30px" class="card-headr">
+          Bizning ishlarimiz
+        </h1>
+        <div class="slider">
+          <ul class="slides-container">
+            <li class="slide">
+              <div class="parallax">
+                <p>SLIDE 1</p>
+              </div>
+            </li>
+            <li class="slide">
+              <div class="parallax"><p>SLIDE 2</p></div>
+            </li>
+            <li class="slide">
+              <div class="parallax"><p>SLIDE 3</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
 
+      <!-- card -->
+      <div class="service" id="service">
+        <h1 class="card-headr">Bizning Hizmatlar</h1>
 
-
-
-
-    <div class="mobile-carousel">
-      <h1 style="padding-bottom: 30px;" class="card-headr">Bizning ishlarimiz</h1>
-      <div class="slider">
-        <ul class="slides-container">
-          <li class="slide">
-         
-            <div class="parallax"> 
-                 <p>SLIDE 1</p>
+        <div class="items">
+          <div class="card">
+            <img
+              src="https://www.7495.ru/upload/iblock/539/539589a818e56c30d2e0b4f27f498584.jpg"
+              alt=""
+            />
+            <div class="card-content">
+              <h2>Landing page</h2>
+              <p>
+                Ochilish sahifasini ishlab chiqish - bu bitta vazifa / bitta
+                mahsulotga ega sayt. Agar sizga ikki marta bosish orqali xaridor
+                kerak bo'lsa, ushbu parametr mos keladi.
+              </p>
+              <a href="price" class="button">
+                Buyurtma
+                <span class="material-symbols-outlined"> arrow_right_alt </span>
+              </a>
             </div>
-          </li>
-          <li class="slide">
-            <div class="parallax"><p>SLIDE 2</p></div>
-          </li>
-          <li class="slide">
-            <div class="parallax"><p>SLIDE 3</p></div>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- card -->
-    <div class="service" id="service">
-      <h1 class="card-headr">Bizning Hizmatlar</h1>
-
-      <div class="items">
-
-        <div class="card">
-          <img src="https://www.7495.ru/upload/iblock/539/539589a818e56c30d2e0b4f27f498584.jpg" alt="" />
-          <div class="card-content">
-            <h2>Landing page</h2>
-            <p>
-              Ochilish sahifasini ishlab chiqish - bu bitta vazifa / bitta mahsulotga ega sayt. Agar sizga ikki marta
-              bosish orqali xaridor kerak bo'lsa, ushbu parametr mos keladi.
-            </p>
-            <a href="price" class="button">
-              Buyurtma
-              <span class="material-symbols-outlined"> arrow_right_alt </span>
-            </a>
           </div>
-        </div>
-        <div class="card">
-          <img src="https://cdn.dribbble.com/users/3256495/screenshots/10833079/website-template_4x.jpg" alt="" />
-          <div class="card-content">
-            <h2>Korporativ veb-sayt</h2>
-            <p>
-              Ko'p sahifali veb-saytni ishlab chiqish. Ushbu parametr xaridorni brend bilan tanishtirish, har bir
-              mahsulot/xizmat haqida batafsil aytib berish va uni saytda saqlash uchun yirik korxonalar uchun javob
-              beradi.
-            </p>
-            <a href="#price" class="button">
-              Buyurtma
-              <span class="material-symbols-outlined"> arrow_right_alt </span>
-            </a>
+          <div class="card">
+            <img
+              src="https://cdn.dribbble.com/users/3256495/screenshots/10833079/website-template_4x.jpg"
+              alt=""
+            />
+            <div class="card-content">
+              <h2>Korporativ veb-sayt</h2>
+              <p>
+                Ko'p sahifali veb-saytni ishlab chiqish. Ushbu parametr
+                xaridorni brend bilan tanishtirish, har bir mahsulot/xizmat
+                haqida batafsil aytib berish va uni saytda saqlash uchun yirik
+                korxonalar uchun javob beradi.
+              </p>
+              <a href="#price" class="button">
+                Buyurtma
+                <span class="material-symbols-outlined"> arrow_right_alt </span>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="https://xurshid.com/img/biz_xiz_bot.jpg" alt="" />
-          <div class="card-content">
-            <h2>
-              Telegram bot</h2>
-            <p>
-              Telegram botini ishlab chiqish. Mijozlaringiz bilan ishlashni robotga topshiring va biz texnik qismga
-              g'amxo'rlik qilamiz.
-            </p>
-            <a href="#price" class="button">
-              Buyurtma
-              <span class="material-symbols-outlined"> arrow_right_alt </span>
-            </a>
+          <div class="card">
+            <img src="https://xurshid.com/img/biz_xiz_bot.jpg" alt="" />
+            <div class="card-content">
+              <h2>Telegram bot</h2>
+              <p>
+                Telegram botini ishlab chiqish. Mijozlaringiz bilan ishlashni
+                robotga topshiring va biz texnik qismga g'amxo'rlik qilamiz.
+              </p>
+              <a href="#price" class="button">
+                Buyurtma
+                <span class="material-symbols-outlined"> arrow_right_alt </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
+      <!-- price -->
 
-
-
-
-
-
-
-
-<!-- price -->
-   
-<div id="price" class="pricing-table-container">
-  <h2 class="price-header">Narxlar</h2>
-  <div class="pricing-table">
-      <div class="table">
-          <div class="content">
+      <div id="price" class="pricing-table-container">
+        <h2 class="price-header">Narxlar</h2>
+        <div class="pricing-table">
+          <div class="table">
+            <div class="content">
               <h3>Landing page</h3>
 
               <div class="price-container">
-                  <span class="price basic-price">$49</span>
-               
+                <span class="price basic-price">$49</span>
               </div>
 
               <div class="description">
-                  This plan is the best for individuals who are getting started
+                This plan is the best for individuals who are getting started
               </div>
 
               <ul class="features">
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, unde.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                  unde.
+                </li>
               </ul>
 
               <a href="#" class="btn">Buyurtma</a>
+            </div>
+
+            <img class="table-bg" src="./img/bg-shape1.svg" alt="" />
           </div>
 
-          <img class="table-bg" src="./img/bg-shape1.svg" alt="">
-      </div>
+          <!-- End of basic plan -->
 
-      <!-- End of basic plan -->
+          <div class="table best-value">
+            <span class="value">Chegirma</span>
 
-
-      <div class="table best-value">
-
-          <span class="value">Chegirma</span>
-
-          <div class="content">
+            <div class="content">
               <h3>Korporativ sayt</h3>
 
               <div class="price-container">
-                  <span class="price professional-price">$99</span>
-                  
+                <span class="price professional-price">$99</span>
               </div>
 
               <div class="description">
-                  This plan is for businesses that are getting started
+                This plan is for businesses that are getting started
               </div>
 
               <ul class="features">
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, unde.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                  unde.
+                </li>
               </ul>
 
               <a href="#" class="btn">Buyurtma</a>
+            </div>
+
+            <img class="table-bg" src="./img/bg-shape2.svg" alt="" />
           </div>
 
-          <img class="table-bg" src="./img/bg-shape2.svg" alt="">
-      </div>
+          <!-- End of Professional Plan -->
 
-      <!-- End of Professional Plan -->
-
-
-      <div class="table">
-        
-          <div class="content">
+          <div class="table">
+            <div class="content">
               <h3>Telegram bot</h3>
 
               <div class="price-container">
-                  <span class="price business-price">$149</span>
-                  
+                <span class="price business-price">$149</span>
               </div>
 
               <div class="description">
-                  This plan is the best for large businesses
+                This plan is the best for large businesses
               </div>
 
               <ul class="features">
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, unde.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                  unde.
+                </li>
               </ul>
 
               <a href="#" class="btn">Buyurtma</a>
-          </div>
+            </div>
 
-          <img class="table-bg" src="./img/bg-shape1.svg" alt="">
+            <img class="table-bg" src="./img/bg-shape1.svg" alt="" />
+          </div>
+        </div>
       </div>
-  </div>
-</div>
 
-
-    <!-- mijozlar fikri -->
-    <div class="clent-fikri" id="orders">
-      <h1 class="card-headr"> Mijozlar Fikri</h1>
-      <div class="items">
-
-        <figure class="snip1139">
-          <blockquote>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.
-            <div class="arrow"></div>
-          </blockquote>
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample3.jpg" alt="sample3"/>
-          <div class="author">
-            <h5>Pelican Steve <span>- LittleThemes</span></h5>
-          </div>
-        </figure>
-        <figure class="snip1139 hover">
-          <blockquote>I don't need to compromise on my principles, because they don't have the slightest bearing on what happens to me anyway.
-            <div class="arrow"></div>
-          </blockquote>
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample47.jpg" alt="sample47"/>
-          <div class="author">
-            <h5>Max Conversion<span>- LittleThemes</span></h5>
-          </div>
-        </figure>
-        <figure class="snip1139">
-          <blockquote>That's the problem with nature, something's always stinging you or oozing mucous all over you. Let's go and watch TV.
-            <div class="arrow"></div>
-          </blockquote>
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample17.jpg" alt="sample17"/>
-          <div class="author">
-            <h5>Eleanor Faint<span>- LittleThemes</span></h5>
-          </div>
-        </figure>
+      <!-- mijozlar fikri -->
+      <div class="clent-fikri" id="orders">
+        <h1 class="card-headr">Mijozlar Fikri</h1>
+        <div class="items">
+          <figure class="snip1139">
+            <blockquote>
+              Sometimes I think the surest sign that intelligent life exists
+              elsewhere in the universe is that none of it has tried to contact
+              us.
+              <div class="arrow"></div>
+            </blockquote>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample3.jpg"
+              alt="sample3"
+            />
+            <div class="author">
+              <h5>Pelican Steve <span>- LittleThemes</span></h5>
+            </div>
+          </figure>
+          <figure class="snip1139 hover">
+            <blockquote>
+              I don't need to compromise on my principles, because they don't
+              have the slightest bearing on what happens to me anyway.
+              <div class="arrow"></div>
+            </blockquote>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample47.jpg"
+              alt="sample47"
+            />
+            <div class="author">
+              <h5>Max Conversion<span>- LittleThemes</span></h5>
+            </div>
+          </figure>
+          <figure class="snip1139">
+            <blockquote>
+              That's the problem with nature, something's always stinging you or
+              oozing mucous all over you. Let's go and watch TV.
+              <div class="arrow"></div>
+            </blockquote>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample17.jpg"
+              alt="sample17"
+            />
+            <div class="author">
+              <h5>Eleanor Faint<span>- LittleThemes</span></h5>
+            </div>
+          </figure>
+        </div>
       </div>
-      
-    </div>
+    </main>
+    <!-- footer -->
 
-  </main>
-  <!-- footer -->
-
-<footer class="footer-distributed"  id="contact">
-
+    <footer class="footer-distributed" id="contact">
       <div class="footer-left">
-
-        <h3>Alpha   <span>coding</span></h3>
+        <h3>Alpha <span>coding</span></h3>
 
         <p class="footer-links">
-          <a href="#" class="link-1">Home</a>
-          
-          <a href="#">Blog</a>
-        
-          <a href="#">Pricing</a>
-        
-          <a href="#">About</a>
-          
-          <a href="#">Faq</a>
-          
-          <a href="#">Contact</a>
+          <a href="#" class="link-1">Main</a>
+
+          <a href="#services">Services</a>
+
+          <a href="#pricing">Pricing</a>
+
+          <a href="#orders">Orders</a>
         </p>
 
-        <p class="footer-company-name">Company Name © 2023</p>
+        <p class="footer-company-name">Alpha Coding © 2023</p>
       </div>
 
       <div class="footer-center">
-
         <div>
           <i class="fa fa-map-marker"></i>
-          <p><span>Toshkent viloyati</span> Yangibozor shahri </p>
+          <p><span>Toshkent viloyati</span> Yangibozor shahri</p>
         </div>
 
         <div>
@@ -379,29 +376,26 @@
 
         <div>
           <i class="fa fa-envelope"></i>
-          <p><a href="mailto:support@company.com">alphacodinguz@gmail.com</a></p>
+          <p>
+            <a href="mailto:alphacodinguz@gmail.com">alphacodinguz@gmail.com</a>
+          </p>
         </div>
-
       </div>
 
       <div class="footer-right">
-
         <p class="footer-company-about">
           <span>Kompanyamiz haqida</span>
-         Bizning kompanyamiz ijtimoiy tarmoqdagi sahifalariga obuna bo'lib qo'ying.
+          Bizning kompanyamiz ijtimoiy tarmoqdagi sahifalariga obuna bo'lib
+          qo'ying.
         </p>
 
         <div class="footer-icons">
-
           <a href="#"><i class="fa-brands fa-telegram"></i></a>
           <a href="#"><i class="fa-brands fa-instagram"></i></a>
           <a href="#"><i class="fa-brands fa-tiktok"></i></a>
           <a href="#"><i class="fa-brands fa-github"></i></a>
-
         </div>
-
       </div>
-
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -409,6 +403,5 @@
     <script src="./script.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

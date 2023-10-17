@@ -1031,7 +1031,7 @@ figure.snip1139 .author h5 span {
   border: 1px solid rgba(99, 116, 152, 0.4);
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   font-weight: 600;
   cursor: pointer;
   box-shadow: inset 0px 0px 0px rgba(99, 116, 152, 0.2);

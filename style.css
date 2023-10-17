@@ -46,13 +46,6 @@ main {
   padding: 0 20px;
 }
 
-.nav > .nav-header img{
-  /* display: inline; */
-  /* background: var(--myteal); */
-  /* margin: 0 15px; */
-  /* padding: 0 20px; */
-}
-
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;

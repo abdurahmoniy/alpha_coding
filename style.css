@@ -137,6 +137,7 @@ main {
     top: 50px;
     left: 0px;
     font-size: 27px;
+    padding-left: 14px;
   }
   .nav > .nav-links > a {
     display: block;

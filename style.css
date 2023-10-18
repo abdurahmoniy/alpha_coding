@@ -108,6 +108,7 @@ main {
     position: absolute;
     right: 0px;
     top: 0px;
+   
   }
   .nav > .nav-btn > label {
     display: block;
@@ -135,6 +136,7 @@ main {
     overflow-y: hidden;
     top: 50px;
     left: 0px;
+    font-size: 27px;
   }
   .nav > .nav-links > a {
     display: block;

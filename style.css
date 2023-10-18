@@ -91,6 +91,10 @@ main {
   display: none !important;
 }
 
+.nav-links a i{
+  display: none;
+}
+
 @media (max-width: 600px) {
   .contact-mob {
     display: block !important;
@@ -137,12 +141,13 @@ main {
     top: 50px;
     left: 0px;
     font-size: 27px;
-    /* padding-left: 34px; */
-    font-weight: bold;
+    padding: 20px;
+    font-weight: 600;
   }
   .nav > .nav-links > a {
     display: block;
     width: 100%;
+    color: var(--light-color);
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
@@ -150,6 +155,11 @@ main {
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);
     overflow-y: auto;
+  }
+  .nav-links a i{
+    display: inline-block;
+    color: var(--myteal);
+    padding-right: 20px;
   }
 }
 

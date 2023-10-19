@@ -172,7 +172,6 @@ main {
   display: none;
 }
 
-/* Define mobile styles here */
 .mobile-carousel {
   width: 100%;
   overflow: hidden;
@@ -180,7 +179,7 @@ main {
 
 .carousel-slide {
   display: inline-block;
-  width: 100%; /* Adjust as needed */
+  width: 100%;
   box-sizing: border-box;
   transition: transform 0.5s ease;
 }
@@ -426,7 +425,31 @@ main {
   opacity: 1;
   transition: opacity 0.2s ease-out;
 }
+.card .card-content{
+  background: var(--black);
+  width: 300px;
+  bottom: -200px;
+  height: 250px;
+  position: absolute;
+  padding: 0 20px;
+  transition: 0.3s ease-out;
+}
+
+.card:hover .card-content {
+  bottom: 0;
+}
+
 .card h2 {
+  color: var(--myteal);
+  text-align: center;
+  font-size: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--myteal);
+}
+/* .card h2 {
   color: #00d9ff;
   position: absolute;
   inset: auto auto 80px 30px;
@@ -460,7 +483,7 @@ main {
 .card:hover a {
   opacity: 1;
   transition: opacity 0.5s 0.1s ease-in;
-}
+} */
 .card:hover img {
   transition: opacity 0.3s ease-in;
   opacity: 0.3;
@@ -999,10 +1022,6 @@ figure.snip1139 .author h5 span {
     right: 0;
     width: 100%;
     opacity: 0;
-  }
-}
-@media screen and (max-width: 799px) {
-  .mainHeading__text {
   }
 }
 @keyframes text {

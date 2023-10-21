@@ -131,3 +131,27 @@ $sliders.forEach( ($slider) => {
 })
 
 
+// Get all the anchor tags in the navigation
+const navLinks = document.querySelectorAll("nav a");
+
+// Add click event listeners to each anchor tag
+navLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
+        e.preventDefault(); // Prevent the default scroll behavior
+
+        const targetId = link.getAttribute("href").substring(1); // Get the target section ID
+        const targetSection = document.getElementById(targetId);
+
+        if (targetSection) {
+            // Calculate the scroll position to the target section
+            const offset = targetSection.offsetTop - document.querySelector("nav").offsetHeight;
+
+            // Smooth scroll animation
+            window.scroll({
+                top: offset,
+                left: 0,
+                behavior: "smooth",
+            });
+        }
+    });
+});

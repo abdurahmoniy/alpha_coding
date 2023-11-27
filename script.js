@@ -152,3 +152,26 @@ navLinks.forEach((link) => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+  const popupFormOverlay = document.getElementById('popupFormOverlay');
+  const closePopupFormBtn = document.getElementById('closePopupForm');
+  const buyurtmaButtons = document.querySelectorAll('.pricing-table .btn');
+
+  function displayPopupForm() {
+    popupFormOverlay.style.display = 'flex';
+  }
+
+  function closePopupForm() {
+    popupFormOverlay.style.display = 'none';
+  }
+
+  buyurtmaButtons.forEach(function (button) {
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+      displayPopupForm();
+    });
+  });
+
+  closePopupFormBtn.addEventListener('click', closePopupForm);
+});
+
